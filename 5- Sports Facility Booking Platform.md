@@ -16,7 +16,7 @@
     *   **How It Works:** A step-by-step guide explaining the booking process. The "How It Works" section on the landing page is designed to provide users with a clear and straightforward guide to the booking process on the platform. This section breaks down the process into simple, actionable steps to ensure users understand how to make the most of the platform's features.
     
         **Here the example design:** <br/> <br/>
-        <img src="./assets/how-it-works-page.png" alt="How it works?" width="400" />
+        <img src="./assets/how-it-works-page.png" alt="How it works?" width="500" />
         <br/>
 
         **This design is just a concept. Please use it as inspiration and apply your own creative ideas.**
@@ -42,7 +42,7 @@
   
             **Here the example design:** 
             <br/> <br/>
-                <img src="./assets/dashboard.webp" alt="Dashboard" width="400" />
+                <img src="./assets/dashboard.webp" alt="Dashboard" width="500" />
             <br/>
             **This design is just a concept. Please use it as inspiration and apply your own creative ideas.**
 
