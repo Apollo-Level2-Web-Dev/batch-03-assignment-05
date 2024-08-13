@@ -4,9 +4,9 @@
 
 * * *
 
-### Detailed Requirements:
+## Detailed Requirements:
 
-#### 1\. **Landing Page:**
+### 1\. **Landing Page:**
 
 *   **Purpose:** Acts as the gateway to the platform, offering a general overview and guiding users to specific actions like booking a facility or logging in.
 *   **Components:**
@@ -25,7 +25,7 @@
     *   **Add One Unique Section:** Showcase your creativity by adding a unique component related to the project.
     *   **Footer:** Contains links to the About Us, Contact Us, and social media pages.
 
-#### 2\. **Dashboard:**
+### 2\. **Dashboard:**
 
 *   **User Dashboard:**
     *   **Purpose:** Allows users to manage their bookings, update their profiles, and access personalized content.
@@ -46,7 +46,7 @@
             <br/>
             **This design is just a concept. Please use it as inspiration and apply your own creative ideas.**
 
-#### 3\. **Login/Registration Page:**
+### 3\. **Login/Registration Page:**
 
 *   **Purpose:** Allows users to access their accounts or create a new account.
 *   **Components:**
@@ -55,7 +55,7 @@
     *   **Social Login:** Option to log in or register using social media accounts (optional).
     *   **Error Handling:** Clear error messages for invalid credentials or registration errors.
 
-#### 4\. **About Us Page:**
+### 4\. **About Us Page:**
 
 *   **Purpose:** Provides information about the organization behind the platform.
 *   **Components:**
@@ -64,7 +64,7 @@
     *   **History & Milestones:** Timeline or narrative of the organization's journey and achievements.
     *   **Contact Information:** Office address, phone number, and email.
 
-#### 5\. **Contact Us Page:**
+### 5\. **Contact Us Page:**
 
 *   **Purpose:** Allows users to get in touch with support or provide feedback.
 *   **Components:**
@@ -72,21 +72,21 @@
     *   **Map Integration:** An embedded map showing the office location (optional).
     *   **Contact Details:** Phone number, email, and physical address.
 
-#### 6\. **Facility Listing Page:**
+### 6\. **Facility Listing Page:**
 
 *   **Purpose:** Displays a list of all available(based on isDeleted) sports facilities .
 *   **Components:**
     *   **Search & Filters:** Options to search by facility name or location, and filters for pricing. (Frontend implementation)
     *   **Facility Cards:** Each card includes an image, name, price per hour, and a "View Details" button.
 
-#### 7\. **Facility Details Page:**
+### 7\. **Facility Details Page:**
 
 *   **Purpose:** Provides detailed information about a specific sports facility.
 *   **Components:**
     *   **Facility Overview:** Images, name, location, price, and description.
     *   **Booking Button:** A "Book Now" button that navigates to the booking page.
 
-#### 8\. **Booking Page:**
+### 8\. **Booking Page:**
 
 *   **Purpose:** Allows users to book a facility and check availability.
 *   **Components:**
@@ -102,7 +102,7 @@
 *   Custom error messages for unauthorized access (e.g., trying to access admin pages as a regular user).
 *   **Functionality:** Navigation options to guide users back to a safe page (e.g., Home, Login).
 
-#### **10\. UI/UX:**
+### **10\. UI/UX:**
 
 **UI/UX Quality:**
 
@@ -116,9 +116,7 @@
 *   **Cross-Device Compatibility:**
     *   Ensure the website is fully responsive on mobile, tablet, and desktop devices.
 
-  
-
-* * *
+---
 
 ### Deliverables:
 
