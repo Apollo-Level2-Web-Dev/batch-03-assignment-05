@@ -123,9 +123,7 @@
 
   **2\. Pagination:** Implement pagination on the "Facility listing" page to improve the user experience by breaking down the content into manageable sections.
   
-  **3\.Error Handling:**
-     * Implement a consistent error message display for any kind of API failures using Toast notifications.
-     * Ensure that validation error messages are displayed directly on the relevant form fields.
+  **3\.Error Handling:** Implement a consistent error message display for any kind of API failures using Toast notifications. Ensure that validation error messages are displayed directly on the relevant form fields.
 
   **4\. GitHub Contributions:** Maintain a well-documented GitHub repository with a minimum of 15 commits. Each commit should represent meaningful progress, such as feature implementation, bug fixes, or UI enhancements.
 
