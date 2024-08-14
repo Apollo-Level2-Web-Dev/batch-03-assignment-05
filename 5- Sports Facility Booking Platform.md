@@ -28,7 +28,7 @@
 ### 2\. **Dashboard:**
 
 *   **User Dashboard:**
-    *   **Purpose:** Allows users to manage their bookings, update their profiles, and access personalized content.
+    *   **Purpose:** Allows users to manage their bookings, and access personalized content.
     *   **Components:**
         *   **Welcome Message:** Personalized greeting. **To retrieve user information, develop an API to fetch user data from the database.** 
             <br/> <br/>
@@ -53,19 +53,12 @@
         *   **Facility Management:** Administrators can perform CRUD operations on sports facilities, including adding new facilities, editing existing details, and removing facilities. In backend, the facility model should be updated to include an image field. For image uploads, you can use services like Imgbb, Cloudinary, or static image links.
         *   **Booking Management:** View all bookings.
         *   **Add Admin:** In this section, an admin can create a new admin account. The form includes fields for the following details: name, email, password, phone number, role (automatically set to "admin"), and address. (Just like sign up process)
-        *   **Reports & Analytics:** Dashboard widgets displaying statistics such as total bookings, revenue, and user engagement. This can be implemented using static JSON data or by developing an API to provide dynamic data.
-  
-            **Here the example design:** 
-            <br/> <br/>
-                <img src="./assets/dashboard.webp" alt="Dashboard" width="500" />
-            <br/>
-            *This design is just a concept. Please use it as inspiration and apply your own creative ideas.*
-
+        
 ### 3\. **Login/Registration Page:**
 
 *   **Purpose:** Allows users to access their accounts or create a new account.
 *   **Components:**
-    *   **Login Form:** Email and password fields with a "Remember Me" checkbox and a "Forgot Password?" link.
+    *   **Login Form:** Email and password fields.
     *   **Registration Form:** Fields for name, email, password, phone, role (automatically set to "user"), address and confirmation with a "Sign Up" button.
     *   **Social Login:** Option to log in or register using social media accounts (optional).
     *   **Error Handling:** Clear error messages for invalid credentials or registration errors.
@@ -92,7 +85,7 @@
 *   **Purpose:** Displays a list of all available(based on isDeleted) sports facilities .
 *   **Components:**
     *   **Search & Filters:** Options to search by facility name or location, and filters for pricing. (Frontend implementation)
-    *   **Facility Cards:** Each card includes an image, name, price per hour, and a "View Details" button.
+    *   **Facility Cards:** Each card includes an image, name, price per hour, and a "View Details" button that navigates to the facility details page.
 
 ### 7\. **Facility Details Page:**
 
