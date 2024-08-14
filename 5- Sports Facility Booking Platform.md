@@ -116,6 +116,10 @@
 *   **User Experience:**  sure smooth navigation, intuitive controls, and accessibility considerations.
 *   **Responsiveness:** Ensure the website is fully responsive on mobile, tablet, and desktop devices.
 
+## Bonus Requirements:
+
+*   **Scroll to Top Button:** Implement a "Scroll to Top" button that appears when users scroll down the page. This button should be easily accessible, allowing users to quickly return to the top of the page with a single click, enhancing navigation and user experience.
+
 ---
 
 ### Deliverables:
