@@ -118,7 +118,13 @@
 
 ## Bonus Requirements:
 
-*   **Scroll to Top Button:** Implement a "Scroll to Top" button that appears when users scroll down the page. This button should be easily accessible, allowing users to quickly return to the top of the page with a single click, enhancing navigation and user experience.
+*   **1\. Scroll to Top Button:** Implement a "Scroll to Top" button that appears when users scroll down the page. This button should be easily accessible, allowing users to quickly return to the top of the page with a single click, enhancing navigation and user experience.
+
+*   **2\. GitHub Contributions:** Maintain a well-documented GitHub repository with a minimum of 15 commits. Each commit should represent meaningful progress, such as feature implementation, bug fixes, or UI enhancements.
+
+*   **3\. Professional README File:** Create a comprehensive and professional README file for your GitHub repository. This README should include an overview of the project, used technologies, live links, installation instructions, usage guidelines, and any relevant documentation.
+
+*   **4\. Add Pagination to All Facility Page:** Implement pagination on the "Facility listing" page to improve the user experience by breaking down the content into manageable sections.
 
 ---
 
