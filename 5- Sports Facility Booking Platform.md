@@ -112,15 +112,9 @@
 
 ### **10\. UI/UX:**
 
-*   **Design Principles:**
-    *   Implement a clean, modern design with consistent color schemes and typography.
-*   **User Experience:**
-    *   Ensure smooth navigation, intuitive controls, and accessibility considerations.
-
-*   **Responsiveness:**
-
-    *   **Cross-Device Compatibility:**
-        *   Ensure the website is fully responsive on mobile, tablet, and desktop devices.
+*   **Design Principles:** Implement a clean, modern design with consistent color schemes and typography.
+*   **User Experience:**  sure smooth navigation, intuitive controls, and accessibility considerations.
+*   **Responsiveness:** Ensure the website is fully responsive on mobile, tablet, and desktop devices.
 
 ---
 
