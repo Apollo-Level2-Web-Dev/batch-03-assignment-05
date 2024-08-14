@@ -19,7 +19,7 @@
         <img src="./assets/how-it-works-page.png" alt="How it works?" width="500" />
         <br/>
 
-        **This design is just a concept. Please use it as inspiration and apply your own creative ideas.**
+        *This design is just a concept. Please use it as inspiration and apply your own creative ideas.*
 
     *   **Customer Testimonials:** A slider showcasing feedback from users who have successfully booked and used the facilities. You can implement this using static JSON data or develop an API to fetch and display dynamic data.
     *   **Add One Unique Section:** Showcase your creativity by adding a unique component related to the project.
@@ -36,7 +36,8 @@
             <br/> <br/>
                 <img src="./assets/dashboard-welcome.png" alt="Dashboard" width="500" />
             <br/>
-            **This design is just a concept. Please use it as inspiration and apply your own creative ideas.** <br/> <br/> 
+            *This design is just a concept. Please use it as inspiration and apply your own creative ideas.* <br/> <br/> 
+
         *   **My Bookings:** List of bookings with options to view details, or cancel.
 *   **Admin Dashboard:**
     *   **Purpose:** Provides administrators with tools to manage facilities, bookings, and users.
@@ -47,7 +48,7 @@
             <br/> <br/>
                 <img src="./assets/dashboard-welcome.png" alt="Dashboard" width="500" />
             <br/>
-            **This design is just a concept. Please use it as inspiration and apply your own creative ideas.** <br/> <br/> 
+            *This design is just a concept. Please use it as inspiration and apply your own creative ideas.* <br/> <br/> 
 
         *   **Facility Management:** Administrators can perform CRUD operations on sports facilities, including adding new facilities, editing existing details, and removing facilities. In backend, the facility model should be updated to include an image field. For image uploads, you can use services like Imgbb, Cloudinary, or static image links.
         *   **Booking Management:** View all bookings.
@@ -58,7 +59,7 @@
             <br/> <br/>
                 <img src="./assets/dashboard.webp" alt="Dashboard" width="500" />
             <br/>
-            **This design is just a concept. Please use it as inspiration and apply your own creative ideas.**
+            *This design is just a concept. Please use it as inspiration and apply your own creative ideas.*
 
 ### 3\. **Login/Registration Page:**
 
