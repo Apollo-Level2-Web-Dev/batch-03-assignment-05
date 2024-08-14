@@ -30,11 +30,25 @@
 *   **User Dashboard:**
     *   **Purpose:** Allows users to manage their bookings, update their profiles, and access personalized content.
     *   **Components:**
-        *   **Welcome Message:** Personalized greeting with user’s name.
+        *   **Welcome Message:** Personalized greeting. **To retrieve user information, develop an API to fetch user data from the database.** 
+            <br/> <br/>
+            **Here the example design:** 
+            <br/> <br/>
+                <img src="./assets/dashboard-welcome.png" alt="Dashboard" width="500" />
+            <br/>
+            **This design is just a concept. Please use it as inspiration and apply your own creative ideas.** <br/> <br/> 
         *   **My Bookings:** List of bookings with options to view details, or cancel.
 *   **Admin Dashboard:**
     *   **Purpose:** Provides administrators with tools to manage facilities, bookings, and users.
     *   **Components:**
+        *   **Welcome Message:** Personalized greeting. **To retrieve user information, develop an API to fetch user data from the database.** 
+            <br/> <br/>
+            **Here the example design:** 
+            <br/> <br/>
+                <img src="./assets/dashboard-welcome.png" alt="Dashboard" width="500" />
+            <br/>
+            **This design is just a concept. Please use it as inspiration and apply your own creative ideas.** <br/> <br/> 
+
         *   **Facility Management:** Administrators can perform CRUD operations on sports facilities, including adding new facilities, editing existing details, and removing facilities. In backend, the facility model should be updated to include an image field. For image uploads, you can use services like Imgbb, Cloudinary, or static image links.
         *   **Booking Management:** View all bookings.
         *   **Add Admin:** In this section, an admin can create a new admin account. The form includes fields for the following details: name, email, password, phone number, role (automatically set to "admin"), and address. (Just like sign up process)
