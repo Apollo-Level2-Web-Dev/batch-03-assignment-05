@@ -50,7 +50,7 @@
             <br/>
             *This design is just a concept. Please use it as inspiration and apply your own creative ideas.* <br/> <br/> 
 
-        *   **Facility Management:** Administrators can perform CRUD operations on sports facilities, including adding new facilities, editing existing details, and removing facilities. In backend, the facility model should be updated to include an image field. For image uploads, you can use services like Imgbb, Cloudinary, or static image links.
+        *   **Facility Management:** Administrators can perform CRUD operations on sports facilities, including adding new facilities, editing existing details, and removing facilities. In backend, the facility model should be updated to include an "image" field. For image uploads, you can use services like Imgbb, Cloudinary, or static image links.
         *   **Booking Management:** View all bookings.
         *   **Add Admin:** In this section, an admin can create a new admin account. The form includes fields for the following details: name, email, password, phone number, role (automatically set to "admin"), and address. (Just like sign up process)
         
@@ -82,7 +82,7 @@
 
 ### 6\. **Facility Listing Page:**
 
-*   **Purpose:** Displays a list of all available(based on isDeleted) sports facilities .
+*   **Purpose:** Displays a list of all available(based on isDeleted = false) sports facilities .
 *   **Components:**
     *   **Search & Filters:** Options to search by facility name or location, and filters for pricing. (Frontend implementation)
     *   **Facility Cards:** Each card includes an image, name, price per hour, and a "View Details" button that navigates to the facility details page.
@@ -98,8 +98,9 @@
 
 *   **Purpose:** Allows users to book a facility and check availability.
 *   **Components:**
-    *   **Facility Overview:** Reiterate key details of the selected facility.
-    *   **Availability Checker:** Interface to select a date, and check the availability of time slots for booking on a specific date.
+    *   **Update Backend:** In backend, the booking model should be updated to include an "user" field.
+    *   **Facility Overview:** Show the key details of the selected facility.
+    *   **Availability Checker:**  Create a interface to select a date, and check the availability of time slots for booking on a specific date.
     *   **Booking Form:** Fields for booking details (e.g., date, startTime and endTime).
     *   **Payment Integration:** Integration with stripe for secure payment processing (optional).
     *   **Confirmation:** Display a booking summary after successful booking.
@@ -124,7 +125,7 @@
 
 *   **3\. Professional README File:** Create a comprehensive and professional README file for your GitHub repository. This README should include an overview of the project, used technologies, live links, installation instructions, usage guidelines, and any relevant documentation.
 
-*   **4\. Add Pagination to All Facility Page:** Implement pagination on the "Facility listing" page to improve the user experience by breaking down the content into manageable sections.
+*   **4\. Pagination:** Implement pagination on the "Facility listing" page to improve the user experience by breaking down the content into manageable sections.
 
 ---
 
