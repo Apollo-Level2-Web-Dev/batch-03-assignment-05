@@ -98,15 +98,15 @@
 
 *   **Purpose:** The Booking Page serves as the interface where users can book a specific facility and check its availability. It guides the user through selecting a facility, checking available time slots, filling out booking details, and completing the booking process,  including payment.
 *   **Components:**
+    *   **Backend Update:** Update the logic to filter availability based on both the date and facility parameters in the /api/check-availability endpoint. Example endpoint: `GET /api/check-availability?date=2024-06-15&facility=jdw34iehdskedkoe3`
     *   **Facility Overview:** Show the key details of the selected facility.
     *   **Availability Checker:**
-       * **Description:** This is an interactive interface where users can select a date and check the availability of time slots for booking the chosen facility.
-       * **UI Elements:**
-           * Date Picker: An intuitive calendar control for selecting the desired booking date.
-           * Facility Selector: If not already selected, allow users to choose or confirm the facility they wish to book.
-           * Check Availability Button: A button that triggers the availability check for the selected date and facility.
-           * Availability Display: A section that shows available time slots after the check is performed.
-    *   Create a interface to select a date, and check the availability of time slots for booking on a specific date & the selected facility. **Update the logic to filter availability based on both the date and facility parameters in the /api/check-availability endpoint. Example endpoint: GET /api/check-availability?date=2024-06-15&facility=jdw34iehdskedkoe3**
+        * **Description:** This is an interactive interface where users can select a date and check the availability of time slots for booking the chosen facility.
+        * **UI Elements:**
+            * Date Picker: An intuitive calendar control for selecting the desired booking date.
+            * Facility Selector: If not already selected, allow users to choose or confirm the facility they wish to book.
+            * Check Availability Button: A button that triggers the availability check for the selected date and facility.
+            * Availability Display: A section that shows available time slots after the check is performed.
     *   **Booking Form:** Fields for booking details (e.g., date, startTime and endTime).
     *   **Payment Integration:** Integration with stripe for secure payment processing (optional).
     *   **Confirmation:** Display a booking summary after successful booking.
