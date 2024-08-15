@@ -112,11 +112,11 @@
     *   **Payment Integration:** Integration with SSL Commerz/AmarPay for secure payment processing.
     *   **Confirmation:** Display a booking summary after successful booking.
         
-        **Here the example design:** 
-            <br/> <br/>
-                <img src="./assets/Booking Page.jpg" alt="Booking Page" width="500" />
-            <br/>
-            *This design is just a concept. Please use it as inspiration and apply your own creative ideas.* <br/> <br/> 
+    **Here the example design:** 
+    <br/> <br/>
+        <img src="./assets/Booking Page.jpg" alt="Booking Page" width="500" />
+    <br/>
+    *This design is just a concept. Please use it as inspiration and apply your own creative ideas.* <br/> <br/> 
 
 ### 9\. **Error Pages**
 
