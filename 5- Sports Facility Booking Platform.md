@@ -1,10 +1,16 @@
-# 5. Sports Facility Booking Platform
+<h1 align="center">5. Sports Facility Booking Platform</h1>
+
+<h3 align="center">⚠️ Read the entire requirement thoroughly. Every detail must be carefully reviewed from start to finish.</h3>
+
+---
 
 **Objective:** The goal of this assignment is to integrate the frontend with the backend system developed in **Assignment 3**, which is a sports facility booking platform. You may update your backend as needed for the frontend implementation. This integration will involve creating a fully functional user interface that communicates with the backend via API calls. Additionally, you'll need to add both a user dashboard and an admin dashboard, ensuring a smooth and user-friendly experience for booking sports facilities.
 
 * * *
 
-## Detailed Requirements:
+# Detailed Requirements:
+
+## Main Requirements:
 
 ### 1\. **Landing Page:**
 
@@ -130,16 +136,22 @@
 *   **User Experience:**  sure smooth navigation, intuitive controls, and accessibility considerations.
 *   **Responsiveness:** Ensure the website is fully responsive on mobile, tablet, and desktop devices.
 
-## Bonus Requirements:
-  **1\. Scroll to Top Button:** Implement a "Scroll to Top" button that appears when users scroll down the page. This button should be easily accessible, allowing users to quickly return to the top of the page with a single click, enhancing navigation and user experience.
+## Bonus Requirements
 
-  **2\. Pagination:** Implement pagination on the "Facility listing" page to improve the user experience by breaking down the content into manageable sections.
-  
-  **3\.Error Handling:** Implement a consistent error message display for any kind of API failures using Toast notifications. Ensure that validation error messages are displayed directly on the relevant form fields.
+1. **Scroll to Top Button**  
+   Implement a "Scroll to Top" button that becomes visible when users scroll down the page. This button should be easily accessible, allowing users to quickly return to the top of the page with a single click, enhancing navigation and the overall user experience.
 
-  **4\. GitHub Contributions:** Maintain a well-documented GitHub repository with a minimum of 15 commits. Each commit should represent meaningful progress, such as feature implementation, bug fixes, or UI enhancements.
+2. **Pagination**  
+   Add pagination to the "Facility Listing" page to improve user experience by breaking down content into manageable sections, making it easier for users to browse through facilities.
 
-  **5\. Professional README File:** Create a comprehensive and professional README file for your GitHub repository. This README should include an overview of the project, used technologies, live links, installation instructions, usage guidelines, and any relevant documentation.
+3. **Error Handling**  
+   Implement consistent error message displays for any API failures using Toast notifications. Ensure that validation error messages are displayed directly on the relevant form fields for better user feedback.
+
+4. **GitHub Contributions**  
+   Maintain a well-documented GitHub repository with at least 15 meaningful commits. Each commit should reflect significant progress, such as feature implementation, bug fixes, or UI enhancements.
+
+5. **Professional README File**  
+   Ensure thorough documentation is available. This should encompass detailed instructions for project setup and execution, alongside pertinent details.  **For a structured guide, refer to the [Project README File Template](./Project%20Documentation%20Template.md). Please adhere to this template or follow the [Markdown Syntax Guide](./Markdown%20Syntax%20Guide.md).**
 
 ---
 
