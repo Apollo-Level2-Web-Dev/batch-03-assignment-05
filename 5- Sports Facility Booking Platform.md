@@ -1,6 +1,6 @@
-# 5 Sports Facility Booking Platform
+# 5. Sports Facility Booking Platform
 
-**Objective:** The objective of this assignment is to integrate the frontend with the backend system developed in **Assignment 3**. The platform is a sports facility booking system. This integration will require the creation of a fully functional user interface that interacts with the backend through API calls. The assignment also involves adding a user dashboard and an admin dashboard and creating a seamless, user-friendly experience for booking sports facilities.
+**Objective:** The goal of this assignment is to integrate the frontend with the backend system developed in **Assignment 3**, which is a sports facility booking platform. You may update your backend as needed for the frontend implementation. This integration will involve creating a fully functional user interface that communicates with the backend via API calls. Additionally, you'll need to add both a user dashboard and an admin dashboard, ensuring a smooth and user-friendly experience for booking sports facilities.
 
 * * *
 
@@ -98,18 +98,25 @@
 
 *   **Purpose:** The Booking Page serves as the interface where users can book a specific facility and check its availability. It guides the user through selecting a facility, checking available time slots, filling out booking details, and completing the booking process,  including payment.
 *   **Components:**
-    *   **Backend Update:** Update the logic to filter availability based on both the date and facility parameters in the /api/check-availability endpoint. Example endpoint: `GET /api/check-availability?date=2024-06-15&facility=jdw34iehdskedkoe3`
+    *   **Backend Update:** Update the logic to filter availability based on both the **date** and **facility** parameters in the `/api/check-availability` endpoint. **Add the `facility` query parameter to this endpoint.** Example endpoint: `GET /api/check-availability?date=2024-06-15&facility=jdw34iehdskedkoe3`
+        
+        The `/api/check-availability` endpoint will now filter available time slots based on both the **date** (in YYYY-MM-DD format) and the **facility ID**. The backend will validate these inputs and return the available slots for that date and facility. If no slots are available, it will return a message indicating this; if the input is invalid, it will return an error message. This makes checking availability more accurate.
     *   **Facility Overview:** Show the key details of the selected facility.
     *   **Availability Checker:**
         * **Description:** This is an interactive interface where users can select a date and check the availability of time slots for booking the chosen facility.
         * **UI Elements:**
             * Date Picker: An intuitive calendar control for selecting the desired booking date.
-            * Facility Selector: If not already selected, allow users to choose or confirm the facility they wish to book.
             * Check Availability Button: A button that triggers the availability check for the selected date and facility.
             * Availability Display: A section that shows available time slots after the check is performed.
     *   **Booking Form:** Fields for booking details (e.g., date, startTime and endTime).
-    *   **Payment Integration:** Integration with stripe for secure payment processing (optional).
+    *   **Payment Integration:** Integration with SSL Commerz/AmarPay for secure payment processing.
     *   **Confirmation:** Display a booking summary after successful booking.
+        
+        **Here the example design:** 
+            <br/> <br/>
+                <img src="./assets/Booking Page.jpg" alt="Booking Page" width="500" />
+            <br/>
+            *This design is just a concept. Please use it as inspiration and apply your own creative ideas.* <br/> <br/> 
 
 ### 9\. **Error Pages**
 
@@ -124,7 +131,6 @@
 *   **Responsiveness:** Ensure the website is fully responsive on mobile, tablet, and desktop devices.
 
 ## Bonus Requirements:
-
   **1\. Scroll to Top Button:** Implement a "Scroll to Top" button that appears when users scroll down the page. This button should be easily accessible, allowing users to quickly return to the top of the page with a single click, enhancing navigation and user experience.
 
   **2\. Pagination:** Implement pagination on the "Facility listing" page to improve the user experience by breaking down the content into manageable sections.
@@ -149,5 +155,5 @@
 *   Creative and effective solutions to any challenges faced during the integration process.
 
 ###   
-**[N.B: If you need to add or update anything in the backend of Assignment-3 to meet the above requirements, feel free to do so.]**
+**[ N.B: If you need to add or update anything in the backend of Assignment-3 to meet the above requirements, feel free to do so. ]**
 ###
