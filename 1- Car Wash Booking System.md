@@ -31,11 +31,14 @@ The Car Wash Booking System frontend is a user-friendly web application designed
         *   **"See All Reviews" Button:** A button that redirects to a dedicated "Reviews" page, where all reviews are displayed in full detail.
 *   **Footer:** Contains links to all relevant pages, contact information, and social media links.
 
+---
+
 ### 2\. User Authentication Pages
 
 **a) Sign Up Page:**
 
 **Features:**
+
 *   Form fields for name, email, password, phone number, address.
 *   By default, every user will have the "USER" role. Initially, there should be an admin in the database. Later, that admin can promote a user to the "ADMIN" role.
 
@@ -59,6 +62,7 @@ The Car Wash Booking System frontend is a user-friendly web application designed
 *   Token-based authentication to maintain user sessions.
 *   Displays error messages for incorrect credentials or any error.
 
+---
 
 ### 3\. Services Page
 
@@ -71,6 +75,7 @@ The Car Wash Booking System frontend is a user-friendly web application designed
 
 *   Allows searching filtering and sorting of services (e.g., by price, duration).
 
+---
 
 ### 4\. Service Details Page
 
@@ -87,6 +92,7 @@ The Car Wash Booking System frontend is a user-friendly web application designed
 
 *   Clicking "Book This Service" redirects the user to the Booking page.
 
+---
 
 ### 5\. Booking Page
 
@@ -101,13 +107,13 @@ The Car Wash Booking System frontend is a user-friendly web application designed
 *   Upon clicking the "Pay Now" button, the user will be redirected to SSLCOMMERZ/AAMARPAY, and the slot status associated with the booking will be marked as "booked."
 *   Redirects the user to a success page after payment.
 
-  
+---
 
 ### **6\. Service Slot Countdown**:
 
 After a user creates a booking, display a countdown timer that shows the time remaining until their selected slot. If multiple slots are selected, only the countdown for the immediate next slot will be shown in the navbar. Additionally, in the user's booking history under "Upcoming Bookings," a countdown for each booking will be displayed in the booking card.
 
-
+---
 
 ### 7\. Admin Dashboard
 
@@ -130,7 +136,7 @@ After a user creates a booking, display a countdown timer that shows the time re
 *   View user bookings in a tabular form.
 *   User management: view user list, edit user roles.
 
-
+---
 
 ### 8\. User Dashboard
 
@@ -145,7 +151,7 @@ After a user creates a booking, display a countdown timer that shows the time re
 *   The history of past bookings should be displayed in a tabular format.
 *   Upcoming bookings should be displayed in a card format, with a countdown timer positioned in the corner of each card.
 
-
+---
 
 ### 9\. Testimonial Page
 
@@ -159,7 +165,7 @@ After a user creates a booking, display a countdown timer that shows the time re
 *   Users are allowed to submit only one testimonial each.
 *   Submitted testimonials are displayed on the page for other users to view.
 
-  
+---
 
 ### 10\. Error Pages
 
