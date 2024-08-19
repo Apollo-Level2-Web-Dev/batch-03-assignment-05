@@ -64,13 +64,13 @@ The goal of this assignment is to build a fully functional web application by in
 
 ## 🔢 Assignment Number Based on the Last Digit of PH Student ID
 
-| Last Digit of PH Student ID | Assignment Number (Design No)                                                                 |
-| --------------------------- | --------------------------------------------------------------------------------------------- |
-| 0, 1                        | [SET-1: Fitness Equipment and Accessories](./#1%20Fitness%20Equipment%20and%20Accessories.md) |
-| 2, 3                        | [SET-2: Mechanical Keyboard Shop](./#2%20Mechanical%20Keyboard%20Shop.md)                     |
-| 4, 5                        | [SET-3: Campers Shop](./#3%20Campers%20Shop.md)                                               |
-| 6, 7                        | [SET-4: Sporting Goods](./#4%20Sporting%20Goods.md)                                           |
-| 8, 9                        | [SET-5: Online Nursery Website](./#5%20Online%20Nursery%20Website.md)                         |
+| Last Digit of PH Student ID | Assignment Number (Design No)                                                           |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| 0, 1                        | [1. Car Wash Booking System](./1-%20Car%20Wash%20Booking%20System.md)                   |
+| 2, 3                        | [SET-2: Mechanical Keyboard Shop](./#2%20Mechanical%20Keyboard%20Shop.md)               |
+| 4, 5                        | [SET-3: Campers Shop](./#3%20Campers%20Shop.md)                                         |
+| 6, 7                        | [SET-4: Sporting Goods](./#4%20Sporting%20Goods.md)                                     |
+| 8, 9                        | [5. Sports Facility Booking Platform](./5-%20Sports%20Facility%20Booking%20Platform.md) |
 
 
 
