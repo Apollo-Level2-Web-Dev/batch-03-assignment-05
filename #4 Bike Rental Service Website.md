@@ -1,7 +1,8 @@
-# #4 Bike Rental Service Website
+<h1 align="center">4. Bike Rental Service Website</h1>
 
-# **Frontend Requirements for Bike Rental Booking System**
+<h3 align="center">⚠️ Read the entire requirement thoroughly. Every detail must be carefully reviewed from start to finish.</h3>
 
+---
   
 
 You are required to develop a Bike Rental Booking System that incorporates various key features. **The objective of this assignment is to integrate the frontend with the backend system developed in Assignment 3.** This project will test your ability to create a functional, user-friendly web application with a focus on UI/UX design, authentication, and management systems. You'll be implementing components like user authentication, bike management, rental booking, and more. Additionally, you will have the opportunity to enhance the user experience with features like coupon codes, side-by-side bike comparisons, micro-animations, and a dark mode option.

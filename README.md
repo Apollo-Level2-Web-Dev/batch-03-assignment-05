@@ -64,13 +64,13 @@ The goal of this assignment is to build a fully functional web application by in
 
 ## 🔢 Assignment Number Based on the Last Digit of PH Student ID
 
-| Last Digit of PH Student ID | Assignment Number (Design No)                                                           |
-| --------------------------- | --------------------------------------------------------------------------------------- |
-| 0, 1                        | [1. Car Wash Booking System](./1-%20Car%20Wash%20Booking%20System.md)                   |
-| 2, 3                        | [SET-2: Mechanical Keyboard Shop](./#2%20Mechanical%20Keyboard%20Shop.md)               |
-| 4, 5                        | [SET-3: Campers Shop](./#3%20Campers%20Shop.md)                                         |
-| 6, 7                        | [SET-4: Sporting Goods](./#4%20Sporting%20Goods.md)                                     |
-| 8, 9                        | [5. Sports Facility Booking Platform](./5-%20Sports%20Facility%20Booking%20Platform.md) |
+| Last Digit of PH Student ID | Assignment Number (Design No)                                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 0, 1                        | [1. Car Wash Booking System](./1-%20Car%20Wash%20Booking%20System.md)                                                          |
+| 2, 3                        | [2. Meeting Room Booking System for Co-working spaces](/#2%20Meeting%20Room%20Booking%20System%20for%20Co-working%20spaces.md) |
+| 4, 5                        | [3. Car Rental Reservation System](./#3%20Car%20Rental%20Reservation%20System.md)                                              |
+| 6, 7                        | [4. Bike Rental Service Website](./#4%20Bike%20Rental%20Service%20Website.md)                                                  |
+| 8, 9                        | [5. Sports Facility Booking Platform](./5-%20Sports%20Facility%20Booking%20Platform.md)                                        |
 
 
 
