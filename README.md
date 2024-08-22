@@ -76,9 +76,9 @@ The goal of this assignment is to build a fully functional web application by in
 
 ### ⏰ **Deadline:**
 
-- 60 Marks: July 12, 2024, 11.59 PM ⏳
-- 50 Marks: July 13, 2024, 11.59 PM ⌛
-- After July 13, 30 Marks Deadline 📅
+- 60 Marks: TBA ⏳
+- 50 Marks: TBA ⌛
+
 
 ***Note: The deadlines are final and will not be extended.***
 
