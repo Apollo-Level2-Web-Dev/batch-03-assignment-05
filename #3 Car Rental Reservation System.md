@@ -4,11 +4,16 @@
 
 * * *
 
-#### **Overview:**
 
-The Car Rental System is designed to provide users with a seamless experience when renting cars online. It caters to both customers(users) and administrators(admins). Customers can browse available cars, make reservations, and see their bookings. Administrators, on the other hand, can manage the car inventory, monitor reservations, and maintain the overall system.
+### **Frontend Requirements for Car Rental Reservation System**
 
-  
+**Objective:**
+
+Create a user-friendly and responsive car rental reservation platform for customers and admins. The system should offer a smooth experience for browsing, booking, and managing cars while providing administrators with tools to manage inventory and reservations.
+
+* * *
+
+### _Public Pages_
 
 #### **1\. Home Page**
 
@@ -28,9 +33,41 @@ The Car Rental System is designed to provide users with a seamless experience wh
 *   **Footer:**
     *   Links to social media profiles, privacy policy, terms of service, and contact information.
 
-* * *
+#### **2\. Car Listing Page**
 
-#### **2\. User Authentication Pages**
+*   Display all available cars in a grid or list view.
+*   Filters for car type (e.g., SUV, hybrid, sedan), price range, and other features or any other relevant fields.
+*   Each car entry includes a brief description, image, pricing, and a "View Details" button.
+
+#### **3\. Car Details Page**
+
+*   Detailed information about the selected car, including features, pricing, availability, and customer reviews.
+*   High-quality images with zoom functionality.
+*   Options to choose additional features like insurance, GPS, child seat, etc.
+*   A prominent "Book Now" button leads to the booking page.
+
+#### **4\. About Us Page**
+
+*   **Header:**
+    *   Consistent with the Home Page for a cohesive design.
+*   **Company History:**
+    *   Details about the company’s founding year, mission, and vision.
+*   **Our Team:**
+    *   Profiles of key team members with photos, names, and roles.
+*   **Our Fleet:**
+    *   Information about the variety of cars available (economy, luxury, SUVs, etc.).
+*   **Values & Commitment:**
+    *   Explanation of the company’s commitment to customer service, sustainability, etc.
+*   **Contact Information:**
+    *   A dedicated section for contact details, including phone number, email, and physical address.
+
+### 5\. Error Page:
+
+*   Create a visually appealing 404 page that aligns with the overall theme of the site. This page should appear when the user navigates to a route that doesn't exist.
+*   In case of an error from the backend API (e.g., "There is no car available right now." or any other message returned when no data is available), display the error message to the user.
+*   Ensure that the page includes navigation options to help users find their way back to safe pages, such as Home and Login.
+
+#### **6\. User Authentication Pages**
 
 *   **Sign Up Page:**
     *   **Main Form:**
@@ -61,7 +98,25 @@ The Car Rental System is designed to provide users with a seamless experience wh
 
 * * *
 
-#### **3\. Admin Dashboard (Manage Cars) \[Private/Protected Route\]**
+### _User Pages \[Private/Protected Route\]_
+
+#### **7\. User Dashboard (Manage User Data)**
+
+*   **Overview:**
+    *   View personal information and booking history.
+    *   Update profile details, such as contact information and preferences.
+*   **Booking Management:**
+    *   View upcoming and past bookings.
+    *   Options to modify or cancel existing bookings (after approval of the booking, the user will be unable to modify or cancel the booking).
+*   **Payment Management:**
+    *   After returning the car a user will be able to pay the amount
+    *   Functionality to pay the amount.
+
+* * *
+
+### _Admin Pages_ **_\[Private/Protected Route\]_**
+
+#### **8\. Admin Dashboard (Manage Cars) \[Private/Protected Route\]**
 
 *   **Dashboard Overview:**
     *   A summary view showing key statistics like total bookings, available cars, revenue, etc.
@@ -77,83 +132,36 @@ The Car Rental System is designed to provide users with a seamless experience wh
 *   **User Management:**
     *   Manage customer and admin accounts.
     *   Add, edit, or remove users with different roles (admin).
-*   **Reports:**
-    *   Generate and view reports on car usage, revenue, and other key metrics. Add printing functionality
+*   **Reports: (Optional)**
+    *   **Generate and View:**
+        *   Generate detailed reports on car usage, revenue, and other key metrics, displayed with clear charts and graphs.
+    *   **Filtering:**
+        *   Filter reports by daily, weekly, monthly, and yearly intervals for easy comparison.
+    *   **Printing:**
+        *   Print reports directly from the platform, with an optimized layout for clarity.
 
 * * *
 
-#### **4\. User Dashboard (Manage User Data) \[Private/Protected Route\]**
+### _User/Admin Pages_ **_\[Private/Protected Route\]_**
 
-*   **Overview:**
-    *   View personal information and booking history.
-    *   Update profile details, such as contact information and preferences.
-*   **Booking Management:**
-    *   View upcoming and past bookings.
-    *   Options to modify or cancel existing bookings.
-*   **Payment Management:**
-    *   After returning the car a user will be able to pay the amount
-    *   Functionality to pay the amount.
-
-* * *
-
-#### **5\. Car Listing Page**
-
-*   Display all available cars in a grid or list view.
-*   Filters for car type (e.g., SUV, hybrid, sedan), price range, and other features.
-*   Each car entry includes a brief description, image, pricing, and a "View Details" button.
-
-* * *
-
-#### **6\. Car Details Page**
-
-*   Detailed information about the selected car, including features, pricing, availability, and customer reviews.
-*   High-quality images with zoom functionality.
-*   Options to choose additional features like insurance, GPS, child seat, etc.
-*   A prominent "Book Now" button leads to the booking page.
-
-* * *
-
-#### **7\. Booking Page \[Private/Protected Route\]**
+#### **9\. Booking Page**
 
 *   **Search Form:**
-    *   Fields for location, pick-up and drop-off dates, car type, etc.
+    *   Fields for selecting location, pick-up and drop-off dates, car type, and other relevant criteria.
 *   **Search Results:**
-    *   A list of available cars based on the search criteria, each with a brief description, image, pricing, and "Book Now" button.
-*   **Car Details Modal:**
-    *   When a car is selected, a modal window pops up with detailed information about the car, including features, insurance options, and cancellation policy.
+    *   Display a list of available cars based on the search criteria, with each car showing a brief description, image, pricing, and a "Book Now" button.
+*   **Car Details:**
+    *   Detailed information about the selected car, including features, insurance options, and cancellation policy.
 *   **Booking Form:**
-    *   Enter personal details, payment information, and any additional options (e.g., GPS, child seat).
+    *   Input fields for personal details **(NID/Passport, Driving License must)**, payment information, and additional options (e.g., GPS, child seat).
 *   **Booking Confirmation:**
-    *   A confirmation page with booking details, a reference number, and an option to print or email the booking.
+    *   A confirmation page displaying the booking details, where the user can review their information before finalizing the reservation.
+
+  
 
 * * *
 
-#### **8\. About Us Page**
-
-*   **Header:**
-    *   Consistent with the Home Page for a cohesive design.
-*   **Company History:**
-    *   Details about the company’s founding year, mission, and vision.
-*   **Our Team:**
-    *   Profiles of key team members with photos, names, and roles.
-*   **Our Fleet:**
-    *   Information about the variety of cars available (economy, luxury, SUVs, etc.).
-*   **Values & Commitment:**
-    *   Explanation of the company’s commitment to customer service, sustainability, etc.
-*   **Contact Information:**
-    *   A dedicated section for contact details, including phone number, email, and physical address.
-
-* * *
-
-### 9\. Error Page:
-
-*   Create a visually appealing 404 page that aligns with the overall theme of the site. This page should appear when the user navigates to a route that doesn't exist.
-*   In case of an error from the backend API (e.g., "There is no car available right now." or any other message returned when no data is available), display the error message to the user.
-*   Ensure that the page includes navigation options to help users find their way back to safe pages, such as Home and Login.
-
-* * *
-
-#### **10\. Responsive Design & UI/UX Requirements**
+#### **Responsive Design & UI/UX Requirements**
 
 *   Ensure all pages are fully responsive and provide a seamless experience across devices (mobile, tablet, desktop).
 *   Implement intuitive and user-friendly navigation.
@@ -169,8 +177,25 @@ The Car Rental System is designed to provide users with a seamless experience wh
     *   Support for multiple payment methods (AmarPay/SSLCommerz any of these local payment methods).
     *   Display a summary of charges before confirming the payment.
     *   A confirmation page with a payment receipt.
-*   Theme switcher:
+*   **Theme switcher:**
     *   Dark/light/system theme switch.
+
+* * *
+
+### **Deliverables**
+
+*   Fully functional frontend application integrated with the backend.
+*   Responsive design for all pages.
+*   User and Admin dashboards with described features.
+*   Complete backend integration.
+*   Clean, well-organized, and documented code.
+*   Creative solutions to integration challenges.
+
+### **References for Idea Generation**
+
+*   **Inspiration Sites:**
+    *   [Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK](https://www.kayak.com/cars)
+    *   [Convene](https://www.gorentals.co.nz/?utm_source=Bing&utm_medium=PPC&utm_campaign=Bing_INT-PPC-Generic&msclkid=872dc177ebc219b805dda7b154721038)
 
 * * *
 
