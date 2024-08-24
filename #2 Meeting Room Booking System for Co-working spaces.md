@@ -82,11 +82,11 @@ Our platform is designed to provide a seamless and intuitive experience for user
  
 **6. Meeting Rooms Page**
 - **Room Listings:**
-  - **Card View Display:** Room Name, Capacity, Price Per Slot, "See Details" Button.
+  - **Card View Display:** Image, Room Name, Capacity, Price Per Slot, "See Details" Button.
   - **Search Functionality:**
     - **Search Bar:** Search by room name or keyword.
-    - **Filtering Options:** Capacity, Slots Availability.
-    - **Sort Options:** By Price Per Slot.
+    - **Filtering Options:** Capacity, Price.
+    - **Sort Options:** By Price Per Slot (ascending, descending).
     - **Clear Filter Button:** Resets all filters.
     - **Pagination:** If needed, depending on the project scope.
 
@@ -95,23 +95,23 @@ Our platform is designed to provide a seamless and intuitive experience for user
 #### **User Pages [Private/Protected Route]** 
 **7. Room Details Page**
 - **Room Information:**
-  - **Detailed Display:** Room Name, Room No., Floor No., Capacity, Slots Availability, Price Per Slot, Amenities.
-  - **Book Now Button:** Active only if the room is available.
+  - **Detailed Display:** Multiple Images, Room Name, Room No., Floor No., Capacity, Price Per Slot, Amenities.
+  - **Book Now Button:** A "Book Now" button that navigates to the booking page.
 
 **8. Booking Process**
 - **Booking Form:**
-  - **Date and Time Selection:** Calendar view, available time slots.
+  - **Date and Time Selection:** Calendar view (Allows users to choose a booking date), available time slots (Show available time slots for that selected date. (based on isBooked = false)).
   - **User Information Form:** Pre-filled with user details.
 
 **9. Confirmation and Payment / Checkout Page**
-  - **Booking Summary:** Room name, date, time, cost.
+  - **Booking Summary:** Room name, date, time, cost, user info.
   - **Payment Selection Options:** Implement any payment system.
   - **Confirm Booking Button:** Finalize the booking.
   - **Confirmation Modal:** Booking details and thank you message.
 
 **10. My Bookings Page**
 - **Booking List:**
-  - Display all user bookings with Room Name, Date & Time, Status (Unconfirmed/Confirmed).
+  - Display user all bookings with Room Name, Date & Time, and Status (Unconfirmed/Confirmed).
 
 ---
 
@@ -120,7 +120,7 @@ Our platform is designed to provide a seamless and intuitive experience for user
 **1. Admin Dashboard Page**
 - **Room Management:**
   - **Create Room Button:** Form for adding new rooms.
-  - **Room List Table:** Room Name, Capacity, Availability, Action Buttons (Update/Delete).
+  - **Room List Table:** Room Name, Room No., Floor No., Capacity, PricePerSlot, Action Buttons (Update/Delete).
   - **Real-Time Updates:** Optimistic updates for create, update, and delete operations.
 
 - **Slots Management:**
