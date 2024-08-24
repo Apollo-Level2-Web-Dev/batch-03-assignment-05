@@ -66,14 +66,17 @@ Our platform is designed to provide a seamless and intuitive experience for user
 - **Features:** Custom 404 page for non-existent routes.
 - **Functionality:** Navigation options to guide users back to safe pages (e.g., Home, Login).
 
-**5. User Authentication Pages**
-- **Sign Up Page:**
-  - **Features:** Form for name, email, password, phone number, address.
-  - **Functionality:** New account creation, form validation, success/error messages.
-
+**5. Sign Up Page:**
+    - **Form Fields:** Name, email, password, phone number, address.
+    - By default, every user will have the "USER" role. Initially, there should be an admin in the database. Later, that admin can promote a user to the "ADMIN" role.
+    - **Functionality:**
+        - Allows users to create a new account.
+        - Form validation (e.g., correct email format).
+        - Displays success or error messages based on the outcome.
 - **Login Page:**
-  - **Features:** Form for email and password.
-  - **Functionality:** User login, token-based authentication, error messages for incorrect credentials.
+    - **Form Fields:** Email, password.
+    - **Functionality:** Login, token-based authentication, proper error messages.
+    - **Please make sure to provide the admin login credentials when submitting the assignment.** 
  
 **6. Meeting Rooms Page**
 - **Room Listings:**
