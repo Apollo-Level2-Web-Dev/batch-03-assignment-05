@@ -42,6 +42,7 @@ The Car Wash Booking System frontend is a user-friendly web application designed
 - **Login Page:**
     - **Form Fields:** Email, password.
     - **Functionality:** Login, token-based authentication, proper error messages.
+    - **Please make sure to provide the admin login credentials when submitting the assignment.** 
 
 **3. Services Page**
 
