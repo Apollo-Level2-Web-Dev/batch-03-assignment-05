@@ -133,7 +133,14 @@ Develop a user-friendly, functional frontend for a Bike Rental Booking System. T
 - **User Management:**
   - **Actions:** Delete users or promote users to admin.
 
-**11. Coupon Management: (Bonus)**
+**11. Return Bike**
+- Return Process:
+Admins can view a list of rental details and use a "Calculate" button to update status and calculate cost by submitting the end time. The cost will be shown in **Rental page** of the user side.
+
+- Success Handling:
+Upon successful return, show a message like "Bike returned successfully" and update the rental status.
+
+**12. Coupon Management: (Bonus)**
 - The admin can create and manage all coupon codes.
   
 ---
