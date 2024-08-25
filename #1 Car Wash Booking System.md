@@ -32,9 +32,9 @@ The Car Wash Booking System frontend is a user-friendly web application designed
     - **Black Overlay with Login Button:**
        - Display a black overlay above the review section if the user is not logged in.
        - Include a "Login" button on the overlay.
-     -  Upon clicking, the user is redirected to the login page.
-      - After a successful login, redirect the user back to the review section or the home page..
-      - Conditional Display: If the user is already logged in, the overlay should not be shown.
+       -  Upon clicking, the user is redirected to the login page.
+       - After a successful login, redirect the user back to the review section or the home page..
+       - Conditional Display: If the user is already logged in, the overlay should not be shown.
 - **Footer:** Links to relevant pages, contact information, and social media links.
 
 **2. User Authentication Pages**
