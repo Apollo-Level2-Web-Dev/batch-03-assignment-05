@@ -29,12 +29,12 @@ The Car Wash Booking System frontend is a user-friendly web application designed
     - **"See All Reviews" Button:** Redirects to the "Reviews" page where the user can see all the reviews.
     - **Redirection:** The user should be redirected to the home page after login, and if possible, directly to the review section on the 
       home page which is optional.
-    - Black Overlay with Login Button:
-       Display a black overlay above the review section if the user is not logged in.
-       Include a "Login" button on the overlay.
-      Upon clicking, the user is redirected to the login page.
-      After a successful login, redirect the user back to the review section or the home page..
-      Conditional Display: If the user is already logged in, the overlay should not be shown.
+    - **Black Overlay with Login Button:**
+       - Display a black overlay above the review section if the user is not logged in.
+       - Include a "Login" button on the overlay.
+     -  Upon clicking, the user is redirected to the login page.
+      - After a successful login, redirect the user back to the review section or the home page..
+      - Conditional Display: If the user is already logged in, the overlay should not be shown.
 - **Footer:** Links to relevant pages, contact information, and social media links.
 
 **2. User Authentication Pages**
