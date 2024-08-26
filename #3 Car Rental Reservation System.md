@@ -121,7 +121,7 @@ Create a user-friendly and responsive car rental reservation platform for custom
 *   **Dashboard Overview:**
     *   A summary view showing key statistics like total bookings, available cars, revenue, etc.
 *   **Manage Cars:**
-    *   Add, update, or delete car listings with fields for car details (make, model, year, features, pricing).
+    *   Add, update, or delete car listings with fields for car details (name, model, year, features, pricePerHour) etc.
     *   Image upload functionality for car photos.
 *   **Manage Bookings:**
     *   View and manage customer bookings.
