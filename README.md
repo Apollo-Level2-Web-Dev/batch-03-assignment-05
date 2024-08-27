@@ -59,7 +59,8 @@ The goal of this assignment is to build a fully functional web application by in
 
 1. **Live Deployment Link (Server and Client)** 
 2. **GitHub Repository Links (Server and Client)** 
-3. **Project Overview Video** (A brief video providing an overview of the project) 
+3. **Project Overview Video** (A brief video providing an overview of the project)
+4. **Admin credentials and other credentials if necessary**
 
 
 ## 🔢 Assignment Number Based on the Last Digit of PH Student ID
