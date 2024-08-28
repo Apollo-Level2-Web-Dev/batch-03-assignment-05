@@ -146,10 +146,6 @@ Create a user-friendly and responsive car rental reservation platform for custom
 
 #### **9\. Booking Page**
 
-*   **Search Form:**
-    *   Fields for selecting location, pick-up and drop-off dates, car type, and other relevant criteria.
-*   **Search Results:**
-    *   Display a list of available cars based on the search criteria, with each car showing a brief description, image, pricing, and a "Book Now" button.
 *   **Car Details:**
     *   Detailed information about the selected car, including features, insurance options, and cancellation policy.
 *   **Booking Form:**
