@@ -145,13 +145,12 @@ Create a user-friendly and responsive car rental reservation platform for custom
 ### _User/Admin Pages_ **_\[Private/Protected Route\]_**
 
 #### **9\. Booking Page**
-
-*   **Car Details:**
   
 *   **Search Form:**
     *   Fields for car type, features, and other relevant criteria.
 *   **Search Results:**
-    *   Display a list of available cars based on the search criteria, with each car showing a brief description, image, pricing, and a "Book Now" button. 
+    *   Display a list of available cars based on the search criteria, with each car showing a brief description, image, pricing, and a "Book Now" button.
+*   **Car Details:**
     *   Detailed information about the selected car, including features, insurance options, and cancellation policy.
 *   **Booking Form:**
     *   Input fields for personal details **(NID/Passport, Driving License must)**, payment information, and additional options (e.g., GPS, child seat).
