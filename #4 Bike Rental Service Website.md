@@ -93,6 +93,8 @@ You can keep the Bike List on navbar
 
 - **Bike Detail Page:**
   - Display detailed information about the selected bike (Description, Price, CC, Year, Brand, Availability and you can other information if you want). There will be a Book Now button. Redirect users to the booking process.
+    
+Note: If not logged in, users need to log in to book a bike
 
 **7. Rental Management**
 - **Booking Process:**
