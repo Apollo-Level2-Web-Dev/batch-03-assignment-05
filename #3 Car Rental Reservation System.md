@@ -131,7 +131,7 @@ Create a user-friendly and responsive car rental reservation platform for custom
     *   **Return Options:** Provide the option to return a car. When a car is returned, its status will be updated accordingly, reflecting the car's availability and the completion of the booking process.
 *   **User Management:**
     *   Manage customer and admin accounts.
-    *   Add, edit, or remove users with different roles (admin).
+    *   🚩 admin can change the access of a user. That means the admin can block/activate a user account. Admin can change the role of a user from user to admin if the admin wishes. (admin).🚩
 *   **Reports: (Optional)**
     *   **Generate and View:**
         *   Generate detailed reports on car usage, revenue, and other key metrics, displayed with clear charts and graphs.
@@ -147,7 +147,8 @@ Create a user-friendly and responsive car rental reservation platform for custom
 #### **9\. Booking Page**
   
 *   **Search Form:**
-    *   Fields for car type, features, and other relevant criteria.
+    *  🚩 Fields for car type, features, and other relevant criteria.🚩
+    *  🚩 Optional: Fields for selecting location, pick-up and drop-off dates, car type, and other relevant criteria.🚩
 *   **Search Results:**
     *   Display a list of available cars based on the search criteria, with each car showing a brief description, image, pricing, and a "Book Now" button.
 *   **Car Details:**
@@ -200,3 +201,5 @@ Create a user-friendly and responsive car rental reservation platform for custom
 * * *
 
 **\[ N.B: If you need any modification in the backend of Assignment-3 to meet the above requirements, feel free to do so. \]**
+
+
