@@ -83,7 +83,9 @@ Develop a user-friendly, functional frontend for a Bike Rental Booking System. T
   -  Display user details such as Name, Email, Phone, Address and if you want you can add other information
   -  Allow users to update their profile information.
 
-**6. Bike Management**
+**6. Bike Management (public)**
+
+You can keep the Bike List on navbar
 - **Bike Listing Page:**
   - **Display:** List of available bikes with necessary information, a View Detail Button
   - **Filter:** Implement filter system to filter bike based on brand, model, availability, etc.
